@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.1aab2535.css",
+    "main.js": "/portafolio/static/js/main.6ee525fb.js",
+    "static/media/djessy.webp": "/portafolio/static/media/djessy.2684812766a74916dc23.webp",
+    "static/media/naja.webp": "/portafolio/static/media/naja.def879f47363386b046d.webp",
+    "static/media/supervisorai.webp": "/portafolio/static/media/supervisorai.0b3e660b5d3bb671b921.webp",
+    "static/media/portafolio.webp": "/portafolio/static/media/portafolio.a7376a7946f9a7f9713b.webp",
+    "static/media/check.svg": "/portafolio/static/media/check.c6c75b620aa98fc602a6c0833dbb44a2.svg",
+    "static/media/bg-modal.png": "/portafolio/static/media/bg-modal.2486ad25ecec3a9456e6.png",
+    "static/media/capturas.png": "/portafolio/static/media/capturas.e617f014a0b211dd6ead.png",
+    "static/media/profile.jpeg": "/portafolio/static/media/profile.814b749db2101fd3571f.jpeg",
+    "static/media/api.svg": "/portafolio/static/media/api.919ac682d8f9533a047747506299f826.svg",
+    "static/media/mobile-dev.svg": "/portafolio/static/media/mobile-dev.8211cbf10e6883661de733f6ee41a04c.svg",
+    "static/media/contacto.svg": "/portafolio/static/media/contacto.8f6fe705423722642b983bbb213c3bc0.svg",
+    "static/media/phone.svg": "/portafolio/static/media/phone.3798e4248b2322afb3971c1d11c68b8a.svg",
+    "static/media/email-footer.svg": "/portafolio/static/media/email-footer.6092674ea9ce6186202ad312aec801ea.svg",
+    "static/media/phone-footer.svg": "/portafolio/static/media/phone-footer.0cb2ae9ab01cf196ce312fdb767b59d3.svg",
+    "static/media/link.svg": "/portafolio/static/media/link.474efe2192d711e4ef9a.svg",
+    "static/media/close.svg": "/portafolio/static/media/close.b21ba17ed232442c797b8eb4679884bf.svg",
+    "static/media/linkedin-footer.svg": "/portafolio/static/media/linkedin-footer.6486ae59693b5d8eab2eaf143f34d574.svg",
+    "static/media/ui:ux.svg": "/portafolio/static/media/ui:ux.b2a7f1373aa33b4cc266479b3eebe05d.svg",
+    "static/media/linkedin.svg": "/portafolio/static/media/linkedin.ce1ace0f35908d9e1c19232d34e5e9a7.svg",
+    "static/media/react-native.png": "/portafolio/static/media/react-native.e233cac8182c24e4ad89.png",
+    "static/media/react.png": "/portafolio/static/media/react.286288d0f4bcc48a2f73.png",
+    "static/media/responsive.svg": "/portafolio/static/media/responsive.3e282efdf9d7eb52949a08fd97d2e84a.svg",
+    "static/media/js.png": "/portafolio/static/media/js.241f01993627473050d7.png",
+    "static/media/github.svg": "/portafolio/static/media/github.0f7ec131288ae3843a262dc4340b1e16.svg",
+    "index.html": "/portafolio/index.html",
+    "static/media/arrow.svg": "/portafolio/static/media/arrow.da3aaa1248770a9bcaeaefe04d3ae1fb.svg",
+    "static/media/logo.svg": "/portafolio/static/media/logo.dc3382ea8b38d8108621151100031c13.svg",
+    "static/media/before-list.svg": "/portafolio/static/media/before-list.a767b820cf898e983d13.svg",
+    "main.1aab2535.css.map": "/portafolio/static/css/main.1aab2535.css.map",
+    "main.6ee525fb.js.map": "/portafolio/static/js/main.6ee525fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aab2535.css",
+    "static/js/main.6ee525fb.js"
+  ]
+}
