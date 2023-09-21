@@ -1,0 +1,18 @@
+$primario: #2B2B34;
+$secundario: #36363C;
+$texto: #DADADA;
+$verdeEnfasis: #02dfbf;
+$verdeBg: #124559;
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+
+
+// Breakpoints
+
+$breakpoints: (
+  'xsmall': 576px,
+  'medium': 768px,
+  'large': 992px,
+  'xlarge': 1024px,
+  'fullwidth': 1440px
+) !default;

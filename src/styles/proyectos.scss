@@ -1,0 +1,160 @@
+.encabezado{
+    h4{
+        margin-bottom: 0;
+    }
+}
+.navegacionPortafolio{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(117px, 140px));
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 60px auto 100px auto;
+    .link{
+        border: 1px solid $primario;
+        position: relative;
+        cursor: pointer;
+        // &.activo{
+        //     border: 1px solid $verdeEnfasis;
+        //     &:before{display: none;}
+        //     &:after{display: none;}
+        // }
+        &:before{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            bottom: 0;
+            left: 0;
+            border-left: 1px solid $primario;
+            border-bottom: 1px solid $primario;
+            transition: border .3s ease-in-out, width .45s ease-in-out;
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 0;
+            right: 0;
+            border-right: 1px solid $primario;
+            border-top: 1px solid $primario;
+            transition: border .3s ease-in-out, width .45s ease-in-out;
+        }
+        &:hover{
+            &::before{
+                width: 100%;
+                height: 100%;
+                border-color: $verdeEnfasis;
+            }
+            &::after{
+                width: 100%;
+                height: 100%;
+                border-color: $verdeEnfasis;
+            }
+        }
+    }
+}
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-gap: 30px;
+    @include responsivo('medium'){
+        grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+    }
+}
+.proyecto{
+    display: flex;
+    align-items: center;
+    grid-gap: 30px;
+    padding: 10px 0 10px 20px;
+    border-radius: 20px;
+    max-height: 250px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: $verdeBg;
+    transition: background-color .5s ease-in-out;
+    &:hover{
+        background-color: $secundario;
+        box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.34);
+        -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.34);
+        -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.34);
+        .img{
+            transition: transform .6s ease-in-out;
+            transform: scale(1.6);
+        }
+    }
+    .info{
+        flex-basis: 50%;
+        h4{
+            margin: 24px 0;
+            font-weight: 500;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            cursor: pointer;
+        }
+    }
+    .img{
+        flex-basis: 50%;
+        transition: all .5s ease-in-out;
+    }
+}
+
+.detallesProyecto{
+    position: absolute;
+    width: 80%;
+    max-height: 540px;
+    top:-50px;
+    left: 10%;
+    background-color: $secundario;
+    background-image: url('../assets/bg-modal.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px 0px rgba(2,223,191,0.25);
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(2,223,191,0.25);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(2,223,191,0.25);
+    z-index: 1;
+}
+.detallesInfo{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+    .info{
+        flex-basis: 50%;
+    }
+    .imagen{
+        flex-basis: 50%;
+    }
+    h2{
+        margin-top: 0;
+    }
+    .imagen{
+        max-height: 540px;
+        overflow: hidden;
+    }
+    .enlaces{
+        display: flex;
+        align-items: center;
+        grid-gap: 15px;
+    }
+    .link{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30px;
+        height: 30px;
+    }
+    .linkSite{
+        background-image: url('../assets/link.svg');
+    }
+    .linkGithub{
+        background-image: url('../assets/github.svg');
+    }
+}
