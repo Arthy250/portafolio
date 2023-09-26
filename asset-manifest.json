@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.1aab2535.css",
-    "main.js": "/portafolio/static/js/main.6ee525fb.js",
+    "main.css": "/portafolio/static/css/main.a71717be.css",
+    "main.js": "/portafolio/static/js/main.dac51abc.js",
     "static/media/djessy.webp": "/portafolio/static/media/djessy.2684812766a74916dc23.webp",
     "static/media/naja.webp": "/portafolio/static/media/naja.def879f47363386b046d.webp",
     "static/media/supervisorai.webp": "/portafolio/static/media/supervisorai.0b3e660b5d3bb671b921.webp",
@@ -9,6 +9,7 @@
     "static/media/check.svg": "/portafolio/static/media/check.c6c75b620aa98fc602a6c0833dbb44a2.svg",
     "static/media/bg-modal.png": "/portafolio/static/media/bg-modal.2486ad25ecec3a9456e6.png",
     "static/media/capturas.png": "/portafolio/static/media/capturas.e617f014a0b211dd6ead.png",
+    "static/media/CV_Arturo_HC.pdf": "/portafolio/static/media/CV_Arturo_HC.85e7ded6a9e1dcbe1ccc.pdf",
     "static/media/profile.jpeg": "/portafolio/static/media/profile.814b749db2101fd3571f.jpeg",
     "static/media/api.svg": "/portafolio/static/media/api.919ac682d8f9533a047747506299f826.svg",
     "static/media/mobile-dev.svg": "/portafolio/static/media/mobile-dev.8211cbf10e6883661de733f6ee41a04c.svg",
@@ -30,11 +31,11 @@
     "static/media/arrow.svg": "/portafolio/static/media/arrow.da3aaa1248770a9bcaeaefe04d3ae1fb.svg",
     "static/media/logo.svg": "/portafolio/static/media/logo.dc3382ea8b38d8108621151100031c13.svg",
     "static/media/before-list.svg": "/portafolio/static/media/before-list.a767b820cf898e983d13.svg",
-    "main.1aab2535.css.map": "/portafolio/static/css/main.1aab2535.css.map",
-    "main.6ee525fb.js.map": "/portafolio/static/js/main.6ee525fb.js.map"
+    "main.a71717be.css.map": "/portafolio/static/css/main.a71717be.css.map",
+    "main.dac51abc.js.map": "/portafolio/static/js/main.dac51abc.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aab2535.css",
-    "static/js/main.6ee525fb.js"
+    "static/css/main.a71717be.css",
+    "static/js/main.dac51abc.js"
   ]
 }
