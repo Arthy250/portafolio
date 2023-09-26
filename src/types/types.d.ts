@@ -13,7 +13,9 @@ export type Servicio = {
     icono: string
 }
 
-export type Skill = {
+export type SkillDetalle = {
+    id: string,
     nombre: string,
-    porcentaje: number
+    porcentaje: number,
+    label: string
 }

@@ -1,3 +1,4 @@
+import Skill from "./skill";
 interface Props {
     setMostrar: (mostrar:boolean) => void
 }
@@ -25,7 +26,7 @@ const Curriculum = ({setMostrar}:Props) => {
                     <p><strong>email:</strong> arturo.hdzc.ico@gmail.com</p>
                 </div>
 
-                <a download href="#!" className="btn">Descargar CV</a>
+                <a download href={require('../assets/CV_Arturo_HC.pdf')} className="btn">Descargar CV</a>
 
                 <h3 className="regular">Educación</h3>
 
@@ -92,9 +93,16 @@ const Curriculum = ({setMostrar}:Props) => {
                         <p>Udemy / 2023</p>
                         </a>
                     </li>
+                    <li>
+                        <strong>React Native: Aplicaciones nativas para IOS y Android</strong>
+                        <a href="https://www.udemy.com/certificate/UC-c448cb83-8e8f-4043-85e6-1e5d039d3b4d/">
+                        <p>Udemy / 2023</p>
+                        </a>
+                    </li>
                 </ul>
 
                 <h3 className="regular">My Skills</h3>
+                <Skill/>
             </div>
 
         </div>

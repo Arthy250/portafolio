@@ -121,3 +121,11 @@
         }
     }
 }
+.progressBar{
+    span{
+        font-weight: 100 !important;
+    }
+}
+.progressBar > div{
+    border-radius: 0;
+}
