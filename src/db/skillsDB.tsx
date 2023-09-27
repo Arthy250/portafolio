@@ -1,20 +1,44 @@
 export const SkillsDB = [
     {
         'id':'1',
-        'nombre': 'html',
+        'nombre': 'HTML',
         'porcentaje': 100,
-        'label': 'Básico ',
+        'label': 'Avanzado',
     },
     {
         'id':'2',
-        'nombre': 'css',
+        'nombre': 'CSS',
         'porcentaje': 100,
-        'label': 'Intermedio ',
+        'label': 'Avanzado',
     },
     {
         'id':'3',
-        'nombre': 'js',
-        'porcentaje': 80,
-        'label': 'Avanzado ',
+        'nombre': 'JS',
+        'porcentaje': 100,
+        'label': 'Avanzado',
+    },
+    {
+        'id':'4',
+        'nombre': 'PHP',
+        'porcentaje': 70,
+        'label': 'Intermedio',
+    },
+    {
+        'id':'5',
+        'nombre': 'REACT',
+        'porcentaje': 100,
+        'label': 'Avanzado',
+    },
+    {
+        'id':'6',
+        'nombre': 'REACT NATIVE',
+        'porcentaje': 100,
+        'label': 'Avanzado',
+    },
+    {
+        'id':'6',
+        'nombre': 'NODE JS',
+        'porcentaje': 50,
+        'label': 'Básico',
     }
 ]
