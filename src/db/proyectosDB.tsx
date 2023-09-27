@@ -1,23 +1,5 @@
 export const ProyectosDB = [
     {
-        'id':'1',
-        'nombre': 'proyecto1',
-        'descripcion': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.',
-        'imgUrl': 'capturas.png',
-        'tipo': 'movileApp',
-        'url': 'https://github.com/Arthy250',
-        'githubUrl': 'https://github.com/Arthy250'
-    },
-    {
-        'id':'2',
-        'nombre': 'proyecto2',
-        'descripcion': 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.',
-        'imgUrl': 'capturas.png',
-        'tipo': 'movileApp',
-        'url': 'https://github.com/Arthy250',
-        'githubUrl': 'https://github.com/Arthy250'
-    },
-    {
         'id':'3',
         'nombre': 'Portafolio',
         'descripcion': 'Web App personal desarrollada con React, Sass y Typescript',
