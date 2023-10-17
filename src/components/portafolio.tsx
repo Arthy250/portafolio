@@ -53,9 +53,10 @@ const Portafolio = () => {
                         img = {proyecto.imgUrl}
                         key = {proyecto.id}
                         descripcion =  {proyecto.descripcion}
-                        tipo= {proyecto.tipo}
-                        url= {proyecto.url}
-                        githubUrl= {proyecto.githubUrl}
+                        tipo = {proyecto.tipo}
+                        url = {proyecto.url}
+                        githubUrl  = {proyecto.githubUrl}
+                        googlePlayURL = {proyecto.googlePlayURL}
                     />
                     )
                 )}

@@ -10,9 +10,10 @@ interface Props {
     tipo: string,
     url?: string,
     githubUrl?: string,
+    googlePlayURL?: string
 }
 
-const Proyecto = ({nombre, img, descripcion, tipo, url, githubUrl}: Props) => {
+const Proyecto = ({nombre, img, descripcion, tipo, url, githubUrl, googlePlayURL}: Props) => {
 
     const [modal, setModal] = useState(false);
 
@@ -39,6 +40,7 @@ const Proyecto = ({nombre, img, descripcion, tipo, url, githubUrl}: Props) => {
                 tipo={tipo}
                 url={url}
                 githubUrl={githubUrl}
+                googlePlayURL= {googlePlayURL}
                 setModal={setModal}/> 
             )}
         </>

@@ -27,9 +27,25 @@ export const ProyectosDB = [
     {
         'id':'7',
         'nombre': 'Supervisor AI',
-        'descripcion': 'Landing page informativa desarrollada en Wordpress',
+        'descripcion': 'Landing page informativa desarrollada en Wordpress.',
         'imgUrl': 'supervisorai.webp',
         'tipo': 'webSite',
         'url': 'http://getsupervisor.ai/',
+    },
+    {
+        'id':'8',
+        'nombre': 'Administrador de Citas',
+        'descripcion': 'Web app para administrar citas para pacientes de vetenrinaria. Desarrollado con React, Vite y Tailwind CSS.',
+        'imgUrl': 'citas.webp',
+        'tipo': 'webApp',
+        'url': 'https://arthy250.github.io/citas_react_vite/',
+    },
+    {
+        'id':'9',
+        'nombre': 'Clon de calculadora IOS',
+        'descripcion': 'Proyecto parte de curso de desarrollo movil. Realizado con React Native y Typescript.',
+        'imgUrl': 'calculadora.webp',
+        'tipo': 'movileApp',
+        'googlePlayURL': 'https://play.google.com/store/apps/details?id=com.calculadorarn',
     }
 ]

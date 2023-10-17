@@ -5,10 +5,11 @@ interface Props {
     tipo: string,
     url?: string,
     githubUrl?: string,
+    googlePlayURL?: string
     setModal: (modal:boolean) => void ;
 }
 
-const DetallesProyecto = ({titulo, img, descripcion, url, githubUrl, setModal}:Props) => {
+const DetallesProyecto = ({titulo, img, descripcion, url, githubUrl, googlePlayURL, setModal}:Props) => {
 
     const cerrarModal = () => {
         setModal(false)
@@ -31,6 +32,9 @@ const DetallesProyecto = ({titulo, img, descripcion, url, githubUrl, setModal}:P
                         
                         {githubUrl && 
                             <a target="_blank" rel="noreferrer" className="link linkGithub" href={githubUrl}></a>
+                        }
+                        {googlePlayURL && 
+                            <a target="_blank" rel="noreferrer" className="link linkGooglePlay" href={googlePlayURL}></a>
                         }
                     </div>
                 </div>

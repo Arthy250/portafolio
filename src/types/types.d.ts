@@ -6,6 +6,7 @@ export type ProyectoDetalles = {
     tipo: string,
     url?: string,
     githubUrl?: string
+    googlePlayURL?: string
 }
 
 export type Servicio = {
