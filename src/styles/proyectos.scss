@@ -67,7 +67,7 @@
     display: flex;
     align-items: center;
     grid-gap: 30px;
-    padding: 10px 0 10px 20px;
+    padding: 10px 20px;
     border-radius: 20px;
     max-height: 250px;
     overflow: hidden;
@@ -100,6 +100,9 @@
     .img{
         flex-basis: 50%;
         transition: all .5s ease-in-out;
+        img{
+            max-width: 200px;
+        }
     }
 }
 
@@ -124,13 +127,21 @@
 .detallesInfo{
     display: flex;
     align-items: center;
-    padding: 0 40px;
+    padding: 20px;
     position: relative;
+    flex-direction: column;
+        @include mostrar('medium'){
+            flex-direction: row;
+        }
     .info{
         flex-basis: 50%;
     }
     .imagen{
         flex-basis: 50%;
+        display: none;
+        @include mostrar('medium'){
+            display: block;
+        }
     }
     h2{
         margin-top: 0;

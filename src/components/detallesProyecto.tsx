@@ -23,7 +23,7 @@ const DetallesProyecto = ({titulo, img, descripcion, url, githubUrl, googlePlayU
                 <button className='cerrarModal' onClick={cerrarModal}></button>
 
                 <div className="info">
-                    <h2>Titulo: <span className="enfasis">{titulo}</span></h2>
+                    <h3>Titulo: <span className="enfasis">{titulo}</span></h3>
                     <p>Descripción: {descripcion}</p>
                     <div className="enlaces">
                         {url && 
