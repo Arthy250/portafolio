@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.cb872cf1.css",
-    "main.js": "/portafolio/static/js/main.6340e667.js",
+    "main.css": "/portafolio/static/css/main.521ee81b.css",
+    "main.js": "/portafolio/static/js/main.9c83628d.js",
     "static/media/djessy.webp": "/portafolio/static/media/djessy.2684812766a74916dc23.webp",
     "static/media/calculadora.png": "/portafolio/static/media/calculadora.a7c1f5e266f8125396fa.png",
     "static/media/naja.webp": "/portafolio/static/media/naja.def879f47363386b046d.webp",
@@ -35,11 +35,11 @@
     "static/media/arrow.svg": "/portafolio/static/media/arrow.da3aaa1248770a9bcaeaefe04d3ae1fb.svg",
     "static/media/logo.svg": "/portafolio/static/media/logo.dc3382ea8b38d8108621151100031c13.svg",
     "static/media/before-list.svg": "/portafolio/static/media/before-list.a767b820cf898e983d13.svg",
-    "main.cb872cf1.css.map": "/portafolio/static/css/main.cb872cf1.css.map",
-    "main.6340e667.js.map": "/portafolio/static/js/main.6340e667.js.map"
+    "main.521ee81b.css.map": "/portafolio/static/css/main.521ee81b.css.map",
+    "main.9c83628d.js.map": "/portafolio/static/js/main.9c83628d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb872cf1.css",
-    "static/js/main.6340e667.js"
+    "static/css/main.521ee81b.css",
+    "static/js/main.9c83628d.js"
   ]
 }
