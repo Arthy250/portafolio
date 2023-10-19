@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.339e462d.css",
+    "main.css": "/portafolio/static/css/main.2d091b8d.css",
     "main.js": "/portafolio/static/js/main.9c83628d.js",
     "static/media/djessy.webp": "/portafolio/static/media/djessy.2684812766a74916dc23.webp",
     "static/media/calculadora.png": "/portafolio/static/media/calculadora.a7c1f5e266f8125396fa.png",
@@ -35,11 +35,11 @@
     "static/media/arrow.svg": "/portafolio/static/media/arrow.da3aaa1248770a9bcaeaefe04d3ae1fb.svg",
     "static/media/logo.svg": "/portafolio/static/media/logo.dc3382ea8b38d8108621151100031c13.svg",
     "static/media/before-list.svg": "/portafolio/static/media/before-list.a767b820cf898e983d13.svg",
-    "main.339e462d.css.map": "/portafolio/static/css/main.339e462d.css.map",
+    "main.2d091b8d.css.map": "/portafolio/static/css/main.2d091b8d.css.map",
     "main.9c83628d.js.map": "/portafolio/static/js/main.9c83628d.js.map"
   },
   "entrypoints": [
-    "static/css/main.339e462d.css",
+    "static/css/main.2d091b8d.css",
     "static/js/main.9c83628d.js"
   ]
 }
