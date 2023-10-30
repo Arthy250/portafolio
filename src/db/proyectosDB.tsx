@@ -35,7 +35,7 @@ export const ProyectosDB = [
     {
         'id':'8',
         'nombre': 'Administrador de Citas',
-        'descripcion': 'Web app para administrar citas para pacientes de vetenrinaria. Desarrollado con React, Vite y Tailwind CSS.',
+        'descripcion': 'Web app para administrar citas para pacientes de veterinaria. Desarrollado con React, Vite y Tailwind CSS.',
         'imgUrl': 'citas.webp',
         'tipo': 'webApp',
         'url': 'https://arthy250.github.io/citas_react_vite/',
@@ -47,5 +47,13 @@ export const ProyectosDB = [
         'imgUrl': 'calculadora.webp',
         'tipo': 'movileApp',
         'googlePlayURL': 'https://play.google.com/store/apps/details?id=com.calculadorarn',
+    },
+    {
+        'id':'10',
+        'nombre': 'Agenda para citas',
+        'descripcion': 'Aplicación de agenda de citas para diferentes negocios con almacenamiento en localStorage realizado con React Narive y Typescript.',
+        'imgUrl': 'agenda.webp',
+        'tipo': 'movileApp',
+        'googlePlayURL': 'https://play.google.com/store/apps/details?id=com.arturo.admincitas&pli=1',
     }
 ]
