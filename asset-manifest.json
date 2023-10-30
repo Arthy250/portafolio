@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.2d091b8d.css",
-    "main.js": "/portafolio/static/js/main.9c83628d.js",
+    "main.js": "/portafolio/static/js/main.d62bb875.js",
     "static/media/djessy.webp": "/portafolio/static/media/djessy.2684812766a74916dc23.webp",
-    "static/media/calculadora.png": "/portafolio/static/media/calculadora.a7c1f5e266f8125396fa.png",
     "static/media/naja.webp": "/portafolio/static/media/naja.def879f47363386b046d.webp",
     "static/media/supervisorai.webp": "/portafolio/static/media/supervisorai.0b3e660b5d3bb671b921.webp",
     "static/media/portafolio.webp": "/portafolio/static/media/portafolio.a7376a7946f9a7f9713b.webp",
@@ -11,6 +10,7 @@
     "static/media/check.svg": "/portafolio/static/media/check.c6c75b620aa98fc602a6c0833dbb44a2.svg",
     "static/media/bg-modal.png": "/portafolio/static/media/bg-modal.2486ad25ecec3a9456e6.png",
     "static/media/capturas.png": "/portafolio/static/media/capturas.e617f014a0b211dd6ead.png",
+    "static/media/agenda.webp": "/portafolio/static/media/agenda.ccdcbf7b818585d59850.webp",
     "static/media/calculadora.webp": "/portafolio/static/media/calculadora.5b2909843e64441c41cb.webp",
     "static/media/CV_Arturo_HC.pdf": "/portafolio/static/media/CV_Arturo_HC.85e7ded6a9e1dcbe1ccc.pdf",
     "static/media/profile.jpeg": "/portafolio/static/media/profile.814b749db2101fd3571f.jpeg",
@@ -36,10 +36,10 @@
     "static/media/logo.svg": "/portafolio/static/media/logo.dc3382ea8b38d8108621151100031c13.svg",
     "static/media/before-list.svg": "/portafolio/static/media/before-list.a767b820cf898e983d13.svg",
     "main.2d091b8d.css.map": "/portafolio/static/css/main.2d091b8d.css.map",
-    "main.9c83628d.js.map": "/portafolio/static/js/main.9c83628d.js.map"
+    "main.d62bb875.js.map": "/portafolio/static/js/main.d62bb875.js.map"
   },
   "entrypoints": [
     "static/css/main.2d091b8d.css",
-    "static/js/main.9c83628d.js"
+    "static/js/main.d62bb875.js"
   ]
 }
