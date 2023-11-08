@@ -51,9 +51,18 @@ export const ProyectosDB = [
     {
         'id':'10',
         'nombre': 'Agenda para citas',
-        'descripcion': 'Aplicación de agenda de citas para diferentes negocios con almacenamiento en localStorage realizado con React Narive y Typescript.',
+        'descripcion': 'Aplicación de agenda de citas para diferentes negocios con almacenamiento en localStorage realizado con React Native y Typescript.',
         'imgUrl': 'agenda.webp',
         'tipo': 'movileApp',
         'googlePlayURL': 'https://play.google.com/store/apps/details?id=com.arturo.admincitas&pli=1',
+    }
+    ,
+    {
+        'id':'11',
+        'nombre': 'Planificador de gastos',
+        'descripcion': 'Aplicación web de control de gastos. Desarrollado con React y Vite',
+        'imgUrl': 'planificador.webp',
+        'tipo': 'webApp',
+        'url': 'https://arthy250.github.io/gastos_react_vite/',
     }
 ]
