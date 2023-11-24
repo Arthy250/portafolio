@@ -2,10 +2,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: $verdeBg;
+    background-color: rgba($verdeBg, .5);
     position: fixed;
     z-index: 3;
     width: 100%;
+    backdrop-filter: blur(15px);
 }
 nav a {
     color: $texto;
