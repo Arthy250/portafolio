@@ -55,8 +55,7 @@ export const ProyectosDB = [
         'imgUrl': 'agenda.webp',
         'tipo': 'movileApp',
         'googlePlayURL': 'https://play.google.com/store/apps/details?id=com.arturo.admincitas&pli=1',
-    }
-    ,
+    },
     {
         'id':'11',
         'nombre': 'Planificador de gastos',
@@ -64,5 +63,12 @@ export const ProyectosDB = [
         'imgUrl': 'planificador.webp',
         'tipo': 'webApp',
         'url': 'https://arthy250.github.io/gastos_react_vite/',
-    }
+    },{
+        'id':'12',
+        'nombre': 'Planificador de gastos personales',
+        'descripcion': 'Aplicación para la gestión de gastos personales con almacenamiento local, realizado con React Native.',
+        'imgUrl': 'planificadorApp.webp',
+        'tipo': 'movileApp',
+        'googlePlayURL': 'https://play.google.com/store/apps/details?id=com.arturohernandez.planificadorgastosrn',
+    },
 ]
