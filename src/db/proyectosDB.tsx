@@ -1,14 +1,5 @@
 export const ProyectosDB = [
     {
-        'id':'3',
-        'nombre': 'Portafolio',
-        'descripcion': 'Web App personal desarrollada con React, Sass y Typescript',
-        'imgUrl': 'portafolio.webp',
-        'tipo': 'webApp',
-        'url': 'https://github.com/Arthy250/portafolio',
-        'githubUrl': 'https://arthy250.github.io/portafolio'
-    },
-    {
         'id':'5',
         'nombre': "Flores D' Jessy",
         'descripcion': 'Sitio web desarrollado en Wordpress con tienda online y metodos de pago personalizados.',
